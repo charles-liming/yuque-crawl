@@ -19,3 +19,7 @@ https://www.python.org/downloads/
 demo：
 `python3 main.py https://www.yuque.com/burpheart/phpaudit`
 
+爬取阳明的k8s 笔记  https://www.yuque.com/cnych/k8s4
+、
+python3 yangming-k8s4-crawl.py https://www.yuque.com/cnych/k8s4
+、
