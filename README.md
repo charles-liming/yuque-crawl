@@ -55,7 +55,7 @@ https://www.kgtools.cn/compression/cookie
 ## 然后修改脚本yangming-k8s4-crawl.py 中的cookie 部分。
 <img width="1178" alt="image" src="https://github.com/user-attachments/assets/59c0422f-13c4-4d29-8b0d-305845a62513">
 
-
+## 执行脚本
 ```
 python3 yangming-k8s4-crawl.py https://www.yuque.com/cnych/k8s4
 ```
