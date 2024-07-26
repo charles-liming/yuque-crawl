@@ -17,7 +17,9 @@ https://www.python.org/downloads/
 `python3 main.py 语雀文档地址`
 
 demo：
-`python3 main.py https://www.yuque.com/burpheart/phpaudit`
+```
+python3 main.py https://www.yuque.com/burpheart/phpaudit
+```
 
 
 
@@ -26,7 +28,7 @@ demo：
 <img width="895" alt="image" src="https://github.com/user-attachments/assets/e237412d-271a-4465-8b75-c7ee932370c4">
 然后，拿到一个curl 方法
 
-`
+```
 curl 'https://www.yuque.com/cnych/k8s4' \
   -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
   -H 'Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,und;q=0.7,fr;q=0.6,zh-TW;q=0.5' \
@@ -44,13 +46,14 @@ curl 'https://www.yuque.com/cnych/k8s4' \
   -H 'sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "macOS"'
-`
+```
+
 复制cookies 部分到cookie 解析网站
 https://www.kgtools.cn/compression/cookie
 <img width="1372" alt="image" src="https://github.com/user-attachments/assets/c9674b6f-82f7-4d30-abdc-32d32dfe120a">
 
 然后修改脚本yangming-k8s4-crawl.py 中的cookie 部分。
 
-、
+```
 python3 yangming-k8s4-crawl.py https://www.yuque.com/cnych/k8s4
-、
+```
