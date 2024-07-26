@@ -4,15 +4,15 @@
 ![](yuque-demo.png)
 
 
-使用：
-安装 python3
+# 使用：
+## 安装 python3
 
 https://www.python.org/downloads/
 
-执行安装运行模块
+## 执行安装运行模块
 `pip install requests`
 
-执行抓取：
+## 执行抓取：
 
 `python3 main.py 语雀文档地址`
 
@@ -23,10 +23,10 @@ python3 main.py https://www.yuque.com/burpheart/phpaudit
 
 
 
-爬取阳明的k8s 笔记  https://www.yuque.com/cnych/k8s4
-第一步：获取cookies ,前提是可以访问阳明的K8S 文档，然后通过浏览器开发者工具的Network ,获取cookie ，
+# 爬取阳明的k8s 笔记  https://www.yuque.com/cnych/k8s4
+## 第一步：获取cookies ,前提是可以访问阳明的K8S 文档，然后通过浏览器开发者工具的Network ,获取cookie ，
 <img width="895" alt="image" src="https://github.com/user-attachments/assets/e237412d-271a-4465-8b75-c7ee932370c4">
-然后，拿到一个curl 方法
+## 然后，拿到一个curl 方法
 
 ```
 curl 'https://www.yuque.com/cnych/k8s4' \
@@ -48,11 +48,13 @@ curl 'https://www.yuque.com/cnych/k8s4' \
   -H 'sec-ch-ua-platform: "macOS"'
 ```
 
-复制cookies 部分到cookie 解析网站
+## 复制cookies 部分到cookie 解析网站
 https://www.kgtools.cn/compression/cookie
 <img width="1372" alt="image" src="https://github.com/user-attachments/assets/c9674b6f-82f7-4d30-abdc-32d32dfe120a">
 
-然后修改脚本yangming-k8s4-crawl.py 中的cookie 部分。
+## 然后修改脚本yangming-k8s4-crawl.py 中的cookie 部分。
+<img width="1178" alt="image" src="https://github.com/user-attachments/assets/59c0422f-13c4-4d29-8b0d-305845a62513">
+
 
 ```
 python3 yangming-k8s4-crawl.py https://www.yuque.com/cnych/k8s4
